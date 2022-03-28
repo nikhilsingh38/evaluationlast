@@ -34,7 +34,7 @@ export class Login extends Component {
       submitted: false,
     };
 
-    
+
   }
 
   inputChange = (event) => {
@@ -100,11 +100,7 @@ export class Login extends Component {
           <input
             type="text"
             className="name"
-            value={firstName}
-            name="firstName"
-            onChange={(e) => {
-              this.inputChange(e);
-            }}
+            
             required
           />
           <br />
